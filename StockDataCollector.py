@@ -184,7 +184,7 @@ def data_collector_setup(stocks_list,stock_names):
 
         file_type = '.csv'
         stock_file_name = stock_names[i] + file_type
-        stock_file_path = 'D:/Mia/Stocks/stock data/'+ stock_file_name
+        stock_file_path = 'D:/XXX/Stocks/stock data/'+ stock_file_name # Update with your directory here
 
         with open(stock_file_path,'a')  as f_object:
             dictwriter_object = DictWriter(f_object, fieldnames = field_names)
